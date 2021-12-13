@@ -1,0 +1,22 @@
+.chat {
+    margin-left: 200px;
+    height: 100vh;
+}
+
+.messageList {
+    height: 80%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form textarea {
+    resize: none;
+    width: 80%;
+}

@@ -1,0 +1,17 @@
+.sidebarCard {
+    border: none;
+    background-color: transparent;
+    transition: .3s background-color;
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidebarCard:hover {
+    background-color: aliceblue;
+}
+
+.sidebarCard.active {
+    background-color: lightblue;
+}
